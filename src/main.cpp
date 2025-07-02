@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include <QApplication>
-
 int main(int argc, char *argv[]) {
     // Create the Qt Application instance
     QApplication a(argc, argv);
