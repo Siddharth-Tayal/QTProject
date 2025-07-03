@@ -1,7 +1,3 @@
-Of course, here is a professionally formatted README.md file based on the instructions you provided.
-
------
-
 # ImageStreamerApp
 
 This repository contains the source code for the ImageStreamerApp, a Qt5-based application. This guide provides instructions on how to build and run the application on a local Linux system and how to cross-compile it for an embedded system.
