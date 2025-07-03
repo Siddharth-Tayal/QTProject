@@ -10,7 +10,8 @@ class QPushButton;
 class QTextEdit;
 class QLabel;
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow
+{
     Q_OBJECT
 
 public:
@@ -37,12 +38,12 @@ private:
     // --- UI Elements ---
     QPushButton *m_startButton;
     QPushButton *m_stopButton;
-    QTextEdit   *m_logArea;
-    QLabel      *m_imageLabel;
+    QTextEdit *m_logArea;
+    QLabel *m_imageLabel;
 
     // --- Worker Thread Management ---
-    QThread     m_workerThread;
-    ZenWorker   *m_worker;
+    QThread m_workerThread;
+    ZenWorker *m_worker;
 };
 
 #endif // MAINWINDOW_H
